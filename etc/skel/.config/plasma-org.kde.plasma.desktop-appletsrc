@@ -23,6 +23,36 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][1][Applets][121]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][1][Applets][122]
+immutability=1
+plugin=org.kde.plasma.konsoleprofiles
+
+[Containments][1][Applets][124][Configuration][General]
+url=file:///usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/ui/google.com
+
+[Containments][1][Applets][125][Configuration][General]
+history=#795e55,#4c1c0d
+
+[Containments][1][Applets][126][Configuration][General]
+color=black
+noteId=4672709a-62e9-4eef-a4e3-ede4b03cda
+
+[Containments][1][Applets][127]
+immutability=1
+plugin=org.kde.plasma.calculator
+
+[Containments][1][Applets][129]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][1][Applets][131]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -41,14 +71,6 @@ url=file:///usr/share/applications/org.kde.spectacle.desktop
 
 [Containments][1][Applets][39][Configuration][General]
 url=file:///usr/share/applications/pisilinux-welcome.desktop
-
-[Containments][1][Applets][4]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][1][Applets][4][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][Applets][40]
 immutability=1
@@ -130,10 +152,10 @@ DialogHeight=82
 DialogWidth=1366
 
 [Containments][1][General]
-AppletOrder=2;40;4;75;5;6
+AppletOrder=2;121;40;131;75;129;122;127;5;6
 
 [Containments][111]
-activityId=6bf51b0a-816c-4b52-8e87-1aa16227c590
+activityId=79e49907-b2b8-4bf9-b87f-655725928a4d
 formfactor=0
 immutability=1
 lastScreen=0
